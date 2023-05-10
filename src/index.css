@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin :0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box {
+  display: flex;
+  background-color: rgb(175, 172, 172);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.box_img {
+  width: 500px;
+  border-radius: 25px;
+  margin: 20px 0;
+}
+
